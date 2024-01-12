@@ -756,7 +756,7 @@ body {
 @media (min-width: 43.8125em) {
   .header.sticked .catalog {
     max-height: calc(100vh - 5rem);
-    max-height: calc(100svh - 5rem);
+    max-height: calc(100dvh - 5rem);
   }
 }
 .header__main {
@@ -1079,7 +1079,7 @@ body {
 @media (min-width: 43.8125em) {
   .catalog {
     max-height: calc(100vh - 10.625rem);
-    max-height: calc(100svh - 10.625rem);
+    max-height: calc(100dvh - 10.625rem);
   }
 }
 @media (max-width: 43.75em) {
@@ -1088,7 +1088,7 @@ body {
     top: 0;
     left: 0;
     height: 100vh;
-    height: 100svh;
+    height: 100dvh;
     width: 80%;
     box-shadow: 0px -6px 16px 0px rgba(20, 20, 20, 0.1);
     border-radius: 0 0.75rem 0.75rem 0;
@@ -1103,7 +1103,7 @@ body {
 @media (max-width: 30em) {
   .catalog {
     height: calc(100vh - 3.5625rem) !important;
-    height: calc(100svh - 3.5625rem) !important;
+    height: calc(100dvh - 3.5625rem) !important;
     border-radius: 0 0.75rem 0 0 !important;
   }
 }
