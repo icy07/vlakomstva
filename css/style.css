@@ -1102,9 +1102,9 @@ body {
 }
 @media (max-width: 30em) {
   .catalog {
-    height: calc(100vh - 3.5625rem);
-    height: calc(100svh - 3.5625rem);
-    border-radius: 0 0.75rem 0 0;
+    height: calc(100vh - 3.5625rem) !important;
+    height: calc(100svh - 3.5625rem) !important;
+    border-radius: 0 0.75rem 0 0 !important;
   }
 }
 @media (max-width: 21.875em) {
